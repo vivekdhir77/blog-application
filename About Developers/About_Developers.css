@@ -1,0 +1,43 @@
+body{
+    background-color: #bcd3ed;
+}
+
+.name{
+    margin: 64px;
+    background-color: bisque;
+    display: inline-block;
+    border-radius: 20px;
+    height: 400px;
+    width: 350px;
+    
+}
+
+.name h1{
+    text-align: left;
+    padding: 24px;
+}
+.name p{
+    text-align: left;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.name ul li{
+    display:inline-block;
+    margin: 12px;
+}
+.name ul li:hover{
+    box-shadow: 1px 1px 1px 1px #6099db;
+    border-radius: 400px;
+}
+
+.foot{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 16vh;
+    padding-top: 1.5vh;
+    padding-bottom: 0.5vh;
+    background-color: #272c35;
+    color: #454a52;
+}

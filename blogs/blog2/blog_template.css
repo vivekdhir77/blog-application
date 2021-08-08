@@ -1,0 +1,32 @@
+
+body{
+    background-color: #bcd3ec;
+}
+
+.content{
+    padding: 24px;
+    display: flex;
+}
+
+.Blog-heading{
+    text-align: left; 
+    margin: 24px 0px 0px 24px; 
+    border: 0px;
+}
+
+.Date{
+    text-align: right;
+    margin-right: 16px;
+}
+
+.foot{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+    padding-top: 1.5vh;
+    padding-bottom: 0.5vh;
+    background-color: #272c35;
+    color: #454a52;
+}

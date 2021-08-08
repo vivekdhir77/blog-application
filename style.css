@@ -34,15 +34,44 @@ body{
   .content{
     text-align: left;
   }
-  
+}
+
+
+.Latest-Blog-page{
+  display: flex;
+  background-color: #acdcfa;
+}
+
+.Latest-Blog-img img{
+  width: 20vh;
+}
+
+.Latest-Blog-content{
+  padding: 10px;
+  width: 50%;
+  float: right;
+  text-align: center;
+  align-items: right;  
+}
+
+@media screen and (max-width:900px) {
+  .Latest-Blog-page{
+    flex-direction: column-reverse;
+  }
+  .Latest-Blog-img img{
+    width: 80vw;
+  }
+  .Latest-Blog-content{
+    text-align: left;
+  }
 }
 
 .foot{
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   text-align: center;
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   padding-top: 1.5vh;
   padding-bottom: 0.5vh;
   background-color: #272c35;

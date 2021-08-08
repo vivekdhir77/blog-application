@@ -1,0 +1,50 @@
+body{
+    background-color: #bcd3ec;
+}
+.blog-box{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2vh 4vh 1vh 4vh;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 24px;
+    background-color: #bcd3ec;
+}
+
+.blog-box:hover{
+    border: 1px solid black;
+    box-shadow: 4px 2px #888888;
+    background-color: #7bbbff;
+}
+
+.blog-heading a{
+    text-decoration: none;
+    color: black;
+}
+
+.blog-heading a:hover{
+    text-decoration: underline;
+}
+
+.blog-date{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+.foot{
+    position: relative; /* if less than 3 blogs change it to absolute*/
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+    padding-top: 1.5vh;
+    padding-bottom: 0.5vh;
+    background-color: #272c35;
+    color: #454a52;
+  }
