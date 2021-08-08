@@ -1,0 +1,32 @@
+html {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+  }
+
+body{
+  background-color: #bcd3ed;
+}
+
+.landing-image{
+  display: inline-block;
+  width: 80vh;
+  height: auto;
+  /* align-self: right; */
+  /* align-items: right; */
+
+}
+
+
+
+.foot{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 10vh;
+  padding-top: 1.5vh;
+  padding-bottom: 0.5vh;
+  background-color: #272c35;
+  color: #454a52;
+}
